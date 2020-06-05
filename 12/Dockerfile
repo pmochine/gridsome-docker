@@ -11,7 +11,8 @@ RUN apk --no-cache add --virtual native-deps \
     libstdc++ \
     linux-headers \
     make \
-    python 
+    python \
+    openssh-client 
 
 # Setup working directory
 WORKDIR /var/www
