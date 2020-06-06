@@ -19,7 +19,8 @@ RUN apk --no-cache add --virtual native-deps \
     libpng-dev \
     zlib-dev \
     autoconf \
-    nasm
+    nasm \
+    pkgconfig
 
 # Setup working directory
 WORKDIR /var/www
