@@ -13,7 +13,8 @@ RUN apk --no-cache add --virtual native-deps \
     make \
     python \
     openssh-client \
-    util-linux 
+    util-linux \
+    libpng16-dev
 
 # Setup working directory
 WORKDIR /var/www
