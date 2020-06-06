@@ -17,7 +17,6 @@ RUN apk --no-cache add --virtual native-deps \
     libtool \
     bash \
     libpng-dev \
-    libpng \
     zlib-dev \
     autoconf \
     nasm
